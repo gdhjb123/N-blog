@@ -1,7 +1,7 @@
 {
-  "name": "博客",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "偶尔停留",
+  "description": "v0.1",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
