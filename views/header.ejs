@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/semantic-ui/2.1.8/semantic.min.js"></script>
+    <%- include('components/background') %>
   </head>
-  <body>
+  <body onload="run();">
+  <img id="background" alt="background" src="" />
   <%- include('components/nav') %>
   <%- include('components/nav-setting') %>
   <%- include('components/notification') %>
+
